@@ -2,3 +2,4 @@
 <!-- Title from module  -->
 <app-todo-list [todoArray]="todos"></app-todo-list>
 <!-- import component -->
+<app-todo-add (todoCreated)="addTodo($event)"></app-todo-add>

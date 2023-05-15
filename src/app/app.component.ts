@@ -20,4 +20,8 @@ export class AppComponent {
       priority: 1
     }
   ]
+
+  addTodo(todo: Todo){
+    this.todos.push(todo);
+  }
 }
