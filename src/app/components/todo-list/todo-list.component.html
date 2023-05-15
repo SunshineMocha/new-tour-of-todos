@@ -3,7 +3,7 @@
     {{todo.title}}
   </li> -->
   <app-todo-detail
-  *ngFor="let todo of todoArray"
+  *ngFor="let todo of _todoArray"
   [todoDetail]="todo"
   (todoDeleted)="deleteTodo($event)"></app-todo-detail>
   <!-- input si vede con quadre, output si vede con tonde,
